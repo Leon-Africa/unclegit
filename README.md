@@ -71,6 +71,17 @@ USAGE
 ```
 
 _See code: [src/commands/pa.ts](https://github.com/Leon-Africa/unclegit/blob/v0.0.0/src/commands/pa.ts)_
+
+## `ug rcu`
+
+Rebase commit update
+
+```
+USAGE
+  $ ug rcu
+```
+
+_See code: [src/commands/rcu.ts](https://github.com/Leon-Africa/unclegit/blob/develop/src/commands/rcu.ts)_
 <!-- commandsstop -->
 
 ## `ug help [COMMAND]`
