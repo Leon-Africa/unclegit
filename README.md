@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/jg31yatln6kgt87l/branch/main?svg=true)](https://ci.appveyor.com/project/Leon-Africa/unclegit/branch/develop)
+
 UncleGit
 ==
 
