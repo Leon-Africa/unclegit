@@ -45,7 +45,8 @@ export class PA extends Command {
 
     //run the command
     try{
-      return  exec(`git commit -a -m ${commit_message} && git push`);    
+     exec(`git commit -a -m ${commit_message} && git push`);   
+     this.warn("test") 
     }
     catch (e: unknown){ 
       if (typeof e === "string") {
