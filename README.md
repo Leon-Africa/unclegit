@@ -21,11 +21,11 @@ UncleGit is a git automation master helping you sharpen redundant or complex git
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g ug
+$ npm install -g unclegit
 $ ug COMMAND
 running command...
 $ ug (-v|--version|version)
-ug/0.0.0 win32-x64 node-v14.17.0
+unclegit/0.0.0 win32-x64 node-v14.17.0
 $ ug --help [COMMAND]
 USAGE
   $ ug COMMAND
@@ -33,7 +33,7 @@ USAGE
 ```
 <!-- usagestop -->
 ```sh-session
-$ npm install -g ug
+$ npm install -g unclegit
 $ ug COMMAND
 running command...
 $ ug (-v|--version|version)
@@ -43,32 +43,6 @@ USAGE
   $ ug COMMAND
 ...
 ```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
-* [`ug hello [FILE]`](#ug-hello-file)
-* [`ug help [COMMAND]`](#ug-help-command)
-* [`ug pa`](#ug-pa)
-
-## `ug hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ ug hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ ug hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/Leon-Africa/unclegit/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `ug help [COMMAND]`
 
@@ -89,7 +63,7 @@ _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2
 
 ## `ug pa`
 
-commit and push all changes
+Commit and push all changes
 
 ```
 USAGE
@@ -98,28 +72,6 @@ USAGE
 
 _See code: [src/commands/pa.ts](https://github.com/Leon-Africa/unclegit/blob/v0.0.0/src/commands/pa.ts)_
 <!-- commandsstop -->
-* [`ug hello [FILE]`](#ug-hello-file)
-* [`ug help [COMMAND]`](#ug-help-command)
-
-## `ug hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ ug hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ ug hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/Leon-Africa/unclegit/blob/v0.0.0/src/commands/hello.ts)_
 
 ## `ug help [COMMAND]`
 
