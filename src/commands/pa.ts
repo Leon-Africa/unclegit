@@ -40,14 +40,8 @@ export class PA extends Command {
     try {
       exec(`git commit -a -m ${commit_message} && git push`)
       this.error('Succesfully uploaded to remote Repo using Git. NOT AN ERROR')
-    } catch (error: unknown) {
-      if (typeof error === 'string') {
-        this.error(`${error.toUpperCase}`)
-      } else if (error instanceof Error) {
-        this.error(`${error.message}`)
-      }
-
-      this.error('Error: Git commit and push failed')
+    } catch (error) {
+      this.error(`${error}`)
     }
   }
 }
