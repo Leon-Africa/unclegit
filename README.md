@@ -1,7 +1,7 @@
-ug
+UncleGit
 ==
 
-UncleGit is a git automation master helping you sharpen redundant or complexggit commands to easy one liners.it commands
+UncleGit is a git automation master helping you sharpen redundant or complexg git commands to easy one liners.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/ug.svg)](https://npmjs.org/package/ug)
